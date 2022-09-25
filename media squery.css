@@ -1,0 +1,7 @@
+@media (max-width:728px) {
+    nav ul li{
+        display: none;
+    }
+   
+    
+}
