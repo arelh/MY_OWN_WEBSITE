@@ -1,27 +1,70 @@
 @media (max-width:728px) {
     nav ul li{
-        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
 }
-    .burger{
-        display:block
+nav{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
 }
-   .body{
-    padding-bottom: 250px;
-}
+  
+
    .hero img{
-   width: fit-content;
+   /* width: fit-content; */
    margin-left: 350px;
 }
+.about{
+    font-size:14px;
+    padding-left: 13px;
+}
+
+.me{
+    font-size:14px;
+    padding-top: 80px;
+    padding-right: 20px;
+    margin-right: -13px;
+}
+.more{
+    font-size:14px;
+    padding-top: 110px;
+    padding-right: 20px;
+    margin-right: -13px;
+}
+
+.icons{
+    padding-right: 20px;
+    }
 }
 @media (max-width: 500px){
 .hero nav{
-    height: 50px;
+    height: 60px;
     flex-direction: column;
     width: 100vw;
 }
+.about{
+    font-size:14px;
+    padding-right: 13px;
+    margin-right: 13px;
+    float: right;
 }
-@media (max-width: 900px){
-.name-div {
-    margin-top: 15px;
+
+.me{
+    font-size:14px;
+    padding-top: 80px;
+    padding-right: 20px;
+    margin-right: -13px;
 }
+.more{
+    font-size:14px;
+    padding-top: 110px;
+    padding-right: 20px;
+    margin-right: -13px;
+}
+
+.icons{
+    padding-right: 20px;
+    }
 }
