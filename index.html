@@ -12,18 +12,18 @@
       href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="normalize.css">
     <title>MY_OWN_WEBSITE</title>
   </head>
   <body>
     <div class="hero">
       <nav>
-       
         <logo>Arel Hagag</logo>
         <ul> 
-          <li><a href="#"> about me</a></li>
+          <li><a href="#about"> about me</a></li>
           <li><a href="#">my projects</a></li>
           <li><a href="#">skills</a></li>
-          <li><a href="#">contact me</a></li>
+          <li><a href="#contact">contact me</a></li>
         </ul>
       </nav>
       <div class="details">
@@ -34,14 +34,14 @@
         </p>
         <a href="#">download cv</a>
       </div>
-      <img src="תמונות/תמונה אראל.jpg" alt="me" />
+      <img  src="תמונות/תמונה אראל.jpg" alt="me" />
     </div>
     <main>
+      <a id="about" href=""></a>
      
         <div class="about">
         <h1>about me</h1>
         </div>
-
         <div class="me">
         <p><strong> full name :</strong>arel Hagag
         <p><strong> My email :</strong>areltv297@gmail.com
@@ -53,10 +53,36 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, voluptatem.</p>
       </div>
       <div class="icons">
-        <img src="תמונות/icon1.png" alt="twitter" width="30px">
-        <img src="תמונות/icon2.png" alt="facebook" width="30px">
-        <img src="תמונות/icon3.png" alt="message" width="30px">
+        <img  src="תמונות/icon1.png" alt="twitter" width="40px">
+        <img src="תמונות/icon2.png" alt="facebook" width="40px">
+        <img src="תמונות/icon3.png" alt="message" width="40px">
       </div>
     </main>
+
+    
+    <div class="contact">
+      <a id="contact" href=""></a>
+        <h2>Contact</h2>
+        <form class="contact-div">
+              <div class="row name-div">
+                 <input class="name-control" type="text"
+                 placeholder="Your Name"
+                 id="name" name="name">
+              </div>
+              <div class="row email-div">
+                 <input class="email-control" type="text" placeholder="Your Email" id="email" name="email">
+              </div>
+              <div class="row subject-div">
+                 <input class="subject-control" type="text"  placeholder="The Subject" id="subject" name="subject">
+              </div>
+              <textarea name="massage" id="massege" class="row-something somthing-div" placeholder="Say Something" rows="10" cols="50" >
+              </textarea>
+              <button class="btn" >Send</button>
+        </form>
+     
+
+
+      
+    </div>
   </body>
 </html>

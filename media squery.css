@@ -1,12 +1,27 @@
 @media (max-width:728px) {
     nav ul li{
         display: none;
-    }
+}
     .burger{
         display:block
-    }
+}
    .body{
     padding-bottom: 250px;
-   }
-   
+}
+   .hero img{
+   width: fit-content;
+   margin-left: 350px;
+}
+}
+@media (max-width: 500px){
+.hero nav{
+    height: 50px;
+    flex-direction: column;
+    width: 100vw;
+}
+}
+@media (max-width: 900px){
+.name-div {
+    margin-top: 15px;
+}
 }
