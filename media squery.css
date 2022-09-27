@@ -2,6 +2,11 @@
     nav ul li{
         display: none;
     }
+    .burger{
+        display:block
+    }
+   .body{
+    padding-bottom: 250px;
+   }
    
-    
 }

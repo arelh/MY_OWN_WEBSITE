@@ -3,24 +3,26 @@
     margin: 0;
     padding: 0;;
      font-family: 'Secular One', sans-serif;
+     text-decoration: none;
 }
 
+
 .hero{
-    /* display: flex; */
+    display: flex;
     height:100vh;
     width: 100%;
     background-color: bisque;
-    border: 2px solid red;
     position: relative;
     background: url(תמונות/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-   
-    
+    position: relative; 
 }
 
-
+/* .burger{
+    display: block;
+    position: absolute;
+} */
 
 
 nav{
@@ -55,26 +57,28 @@ nav ul li{
    text-decoration: none;
    color: white;
 }
-
+nav ul li:hover{
+    color:red;
+}
 
 .hero logo{
     color: brown;
 }
 .hero img{
-    width: 200px;
+    max-width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-left:  700px;
     margin-top: 100px;
-    border: solid red 2px;
     position: absolute;
+    flex-wrap: nowrap
    
    
 }
 .details{
     margin-left: 8%;
     margin-top: 10%;
-    border: solid red 2px;
+    
     width: 50%;
     position: absolute;
 }
@@ -105,13 +109,14 @@ span{
     text-align: center;
 }
 main{
-    border: 2px solid red;
+    /* border: 2px solid red; */
    height: 100vh;
    width: 100%;
    background: url(תמונות/sea.jpg);
    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
     
    
 }
@@ -120,11 +125,12 @@ main{
     font-size: 25px;
     margin-top: 30px;
     margin-left: 330px;
-    border: red solid 2px;
+    /* border: red solid 2px; */
+    width: 40%;
 }
 .me{
    
-    border: red solid 2px;
+    /* border: red solid 2px; */
     margin-top: 58px;
     margin-right: 597px;
 }
@@ -137,4 +143,6 @@ main{
     margin-right: 88px;
 }
 
-
+.main.icons{
+ width: 20px;
+}
